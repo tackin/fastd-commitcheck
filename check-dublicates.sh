@@ -1,7 +1,7 @@
 #!/bin/bash
 export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
 export HOME=/home/fftr-webhooks
-cd /var/opt/fftr-webhooks/fftr-peers
+cd /var/opt/webhooks/fftr-peers
 if ! git pull > /dev/null 2>&1; then
 	exit
 fi

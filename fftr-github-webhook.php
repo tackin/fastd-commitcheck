@@ -1,2 +1,4 @@
 <?php
-system("/var/www/fftr-webhooks/check-dublicates/check-and-post.sh > /dev/null 2>&1 &");
+system("/opt/fastd-commitcheck/check-and-post.sh > /dev/null 2>&1 &");
+?>
+
